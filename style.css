@@ -12,7 +12,6 @@ h1{
     background-color: darkorchid;
     color: aliceblue;
     padding: 10px 50px;
-    
 }
 #main{
     display: flex;
@@ -60,17 +59,14 @@ h1{
     gap: 25px;
     align-items: center
 }
-
 .joke{
     margin: 10px 0px;
 }
-
 .like-btn{
     background-color: aquamarine;
     box-shadow: 2px 2px silver;
     padding: 5px;
 }
-
 a{
     color: aqua
 }
