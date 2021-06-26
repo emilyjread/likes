@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    background-color: black;
+    color: white;
+    gap: 15px;
+    padding: 100px;
+}
+h1{
+    background-color: darkorchid;
+    color: aliceblue;
+    padding: 10px 50px;
+    
+}
+#main{
+    display: flex;
+    margin-top: 50px;
+    gap: 15px;
+    justify-content: space-between
+}
+#feed{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#profile{
+    display: flex;
+    flex-flow: column wrap;
+    gap:20px;
+    align-items: center;
+}
+#profile img{
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 50%;
+    outline: 7px solid silver;
+    margin-top: 50px;
+}
+#profile-name{
+    font-size: 30px;
+}
+.user{
+    border: 2px solid white;
+    padding: 15px;
+    flex: 1;
+
+}
+.user-name{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.user-top{
+    display: flex;
+    justify-content: space-between;
+}
+.likebox{
+    display: flex;
+    gap: 25px;
+    align-items: center
+}
+
+.joke{
+    margin: 10px 0px;
+}
+
+.like-btn{
+    background-color: aquamarine;
+    box-shadow: 2px 2px silver;
+    padding: 5px;
+}
+
+a{
+    color: aqua
+}

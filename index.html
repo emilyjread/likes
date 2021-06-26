@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Do you like me?</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="header">Dad Jokes</h1>
+        <div id="main">
+            <div id="profile">
+                <img src="dad.jpeg" alt="dad pic">
+                <a href="#">Add a profile picture</a>
+                <div id="profile-name">Emily Read</div>
+            </div>
+            <div id="feed">
+                <h2>Your Feed</h2>
+                <div class="user">
+                    <div class="user-top">
+                        <p class="user-name">@neednewdentist</p>
+                        <div class="likebox">
+                                <div class="user-likes">0 Likes</div>
+                                <button class="like-btn" onclick=addLike(0)>Like</button>
+                        </div>
+                    </div>    
+                    <p class="joke"> A search for <a href="#">cavities</a> is not the same thing as a cavity search</p>
+                </div>
+                <div class="user">
+                    <div class="user-top">
+                        <p class="user-name">@hungry</p>
+                        <div class="likebox">
+                                <div class="user-likes">0 Likes</div>
+                                <button class="like-btn" onclick=addLike(1)>Like</button>
+                        </div>
+                    </div>
+                    <p class="joke"> "I thought the dryer was shrinking my clothes. Turns out it was the refrigerator all along."</p>
+                </div>
+                <div class="user">
+                    <div class="user-top">
+                        <p class="user-name">@suspicious</p>
+                        <div class="likebox">
+                                <div class="user-likes">0 Likes</div>
+                                <button class="like-btn" onclick=addLike(2)>Like</button>
+                        </div>
+                    </div>
+                    <p class="joke"> I don't trust stairs. They're always up to something.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>
